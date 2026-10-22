@@ -1,0 +1,33 @@
+{
+  "reviewed_on": "2026-10-22",
+  "source": "User-rendered reports/analysis.html; not independently rerun in the preparation environment",
+  "R_version": "4.5.2",
+  "housing": {
+    "seed": 500,
+    "n_train": 3178,
+    "n_test": 1370,
+    "adjusted_r_squared_train_reported": 0.9175,
+    "rmse_usd_reported": 98700.97,
+    "mae_usd_reported": 79196.78,
+    "r_squared_test_reported": 0.921303
+  },
+  "bank": {
+    "seed": 501,
+    "n_train": 3164,
+    "n_test": 1357,
+    "threshold": 0.5,
+    "positive_class": "yes (1)",
+    "roc_auc_reported": 0.8518,
+    "mcfadden_pseudo_r_squared_reported": 0.1756502,
+    "TN": 1178,
+    "FP": 24,
+    "FN": 124,
+    "TP": 31,
+    "accuracy": 0.8909358879882093,
+    "precision_yes": 0.5636363636363636,
+    "recall_yes": 0.2,
+    "specificity_no": 0.9800332778702163,
+    "majority_baseline_accuracy": 0.8857774502579219
+  },
+  "precision_note": "Values suffixed reported retain the precision printed in the HTML; confusion-matrix measures are recalculated from integer counts."
+}
