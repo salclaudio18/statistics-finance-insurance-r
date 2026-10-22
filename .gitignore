@@ -1,0 +1,17 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.env
+.DS_Store
+Thumbs.db
+*_cache/
+*_files/
+reports/analysis.pdf
+analysis.html
+analysis.pdf
+analysis.tex
+analysis.log
+analysis.aux
+analysis.toc
